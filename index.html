@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<link rel="stylesheet" href="css/style.css" />
+		<style>
+			#div{width: 100%;height: 50px;background: yellow;display: flex;z-index: 20;}
+		</style>
+		<script src="js/my.js"></script>
+		<script>
+			var height=$("body").scrollTop();
+			console.log(height)
+		</script>
+	</head>
+	<body>
+		<!--头部-->
+		<div class="header">
+			<div id="div"></div>
+			<div class="wrap">
+				<a href="#" title="首页" class="icon"><img src="img/update_logo.png" alt="logo"></a>
+				<ul class="nav">
+					<li><a href="#" alt="">目的地</a></li>
+					<li><a href="#" alt="">达人 </a></li>
+					<li><a href="#" alt="">游人专线 </a></li>
+					<li><a href="#" alt="">下载客户端</a></li>
+				</ul>
+				<div class="login">
+					<a href="#" title="">登录&nbsp;|</a>
+					<a href="#" title="">注册</a>
+				</div>
+			</div>
+		</div>
+		<!--轮播-->
+		<div class="banner">
+			<div id="c">
+				<a class="ig" href="#"><img src="img/banner5.jpg" width="1900px" height="300px"/></a>
+				<a class="ig" href="#"><img src="img/fengtuyicang_bg.jpg" width="1900px" height="300px"/></a>
+				<a class="ig" href="#"><img src="img/地图1.jpg" width="1900px" height="300px"/></a>
+				<a class="ig" href="#"><img src="img/大巴.jpg" width="1900px" height="300px"/></a>
+				<a class="ig" href="#"><img src="img/微网 (2).jpg" width="1900px" height="300px"/></a>
+				<div class="btn btn1"></div>
+				<div class="btn btn2"></div>
+			</div>
+		</div>
+		<!--内容-->
+		<div class="content">
+			<div class="wrap">
+				<p class="try">游记</p>
+				<div class="box">
+					<img src="img/fengtuyicang_bg.jpg" alt="" />
+					<img src="img/大巴.jpg" alt="" />
+					<img src="img/微网 (2).jpg" />
+				</div>
+				<div class="box" style="margin-top: 20px;">
+					<img src="img/自驾游.jpg" alt="" />
+					<img src="img/采摘.jpg" alt="" />
+					<img src="img/高铁站.jpg" />
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>
